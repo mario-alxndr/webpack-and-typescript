@@ -1,0 +1,21 @@
+{
+  "name": "webpack-and-typescript",
+  "version": "1.0.0",
+  "description": "hi, this is my webpack-and-typescript repository that I learn from https://www.youtube.com/watch?v=sOUhEJeJ-kI&t=33s",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@mario.github.com:mario-alxndr/webpack-and-typescript.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "ts-loader": "^9.5.1",
+    "typescript": "^5.2.2",
+    "webpack": "^5.89.0",
+    "webpack-cli": "^5.1.4"
+  }
+}
