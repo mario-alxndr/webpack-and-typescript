@@ -1,0 +1,1 @@
+hi, this is my webpack-and-typescript repository that I learn from https://www.youtube.com/watch?v=sOUhEJeJ-kI&t=33s
