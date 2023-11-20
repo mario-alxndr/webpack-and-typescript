@@ -1,6 +1,8 @@
 const path = require('path');
 
 module.exports = {
+  // source map for showing in browser specific error script and line
+  devtool: 'source-map',
   entry: './src/index.ts',
   module: {
     rules: [
