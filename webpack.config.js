@@ -11,6 +11,13 @@ module.exports = {
       }
     ]
   },
+  resolve: {
+    // for resolve file ts/js, if not will not recognize imported file.
+    extensions: [
+      '.ts',
+      '.js',
+    ]
+  },
   output: {
     // hot reload src/index.ts
     publicPath: 'public',
