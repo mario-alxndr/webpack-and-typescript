@@ -4,6 +4,7 @@
   "description": "hi, this is my webpack-and-typescript repository that I learn from https://www.youtube.com/watch?v=sOUhEJeJ-kI&t=33s",
   "main": "index.js",
   "scripts": {
+    "serve": "webpack-dev-server",
     "build": "webpack",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -13,10 +14,11 @@
   },
   "author": "",
   "license": "ISC",
-  "devDependencies": {
-    "ts-loader": "^9.5.1",
+  "devDependencies": { 
+    "ts-loader": "^6.2.2",
     "typescript": "^5.2.2",
-    "webpack": "^5.89.0",
-    "webpack-cli": "^5.1.4"
+    "webpack": "^4.42.1",
+    "webpack-cli": "^3.3.11",
+    "webpack-dev-server": "^3.10.3"
   }
 }

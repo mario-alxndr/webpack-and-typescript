@@ -12,6 +12,8 @@ module.exports = {
     ]
   },
   output: {
+    // hot reload src/index.ts
+    publicPath: 'public',
     filename: 'bundle.js',
     path: path.resolve(__dirname, 'public'),
   },
